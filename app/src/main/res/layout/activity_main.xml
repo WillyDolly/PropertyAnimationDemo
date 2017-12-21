@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.popland.pop.propertyanimationdemo.MainActivity">
+
+    <com.popland.pop.propertyanimationdemo.Rectangle2
+        android:id="@+id/rect2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.popland.pop.propertyanimationdemo.Rectangle1
+        android:id="@+id/rect1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv2"-->
+        <!--android:background="#fff0"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv1"-->
+        <!--android:background="#ff0037"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+</FrameLayout>
